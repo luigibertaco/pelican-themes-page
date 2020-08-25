@@ -3,7 +3,7 @@
 
 AUTHOR = 'Luigi Bertaco Cristofolini'
 SITENAME = 'Pelican Themes'
-SITEURL = 'https://pelicanthemes.luigi.dev'
+SITEURL = ''
 
 PATH = 'content'
 
