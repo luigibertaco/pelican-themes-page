@@ -110,6 +110,20 @@ six = "*"
 
 [[package]]
 category = "main"
+description = "Copy your docs directly to the gh-pages branch."
+name = "ghp-import"
+optional = false
+python-versions = "*"
+version = "1.0.0"
+
+[package.dependencies]
+python-dateutil = ">=2.8.1"
+
+[package.extras]
+dev = ["flake8", "markdown", "twine"]
+
+[[package]]
+category = "main"
 description = "GraphQL client for Python"
 name = "gql"
 optional = false
@@ -323,7 +337,7 @@ secure = ["certifi", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "pyOpenSSL (>=0
 socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7,<2.0)"]
 
 [metadata]
-content-hash = "65d8dfa4e7b1d03f8406a640b1e3209e4587667ad34b28b2847e891f75328f89"
+content-hash = "0366c33ef19aefe24b9dd80eec6ea10caaf424c011f777b8db18ac64fbafdc1a"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -365,6 +379,9 @@ dynaconf = [
 feedgenerator = [
     {file = "feedgenerator-1.9.1-py3-none-any.whl", hash = "sha256:a81d240a2c74a2ae80c393cfe374aff1a19ed3fe41a488eacc66edbe46d3f422"},
     {file = "feedgenerator-1.9.1.tar.gz", hash = "sha256:a28a5add781509390d1a6a52d017829853ee4bef1d2e7b4d5da0e9d1b395ce54"},
+]
+ghp-import = [
+    {file = "ghp-import-1.0.0.tar.gz", hash = "sha256:65e4d854dd0980096fd950a323d699daad4ff8007b8daa7e7ca60d57dfa00e1b"},
 ]
 gql = [
     {file = "gql-2.0.0-py2.py3-none-any.whl", hash = "sha256:35032ddd4bfe6b8f3169f806b022168932385d751eacc5c5f7122e0b3f4d6b88"},
